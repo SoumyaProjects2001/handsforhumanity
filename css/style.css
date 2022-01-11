@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-header{
+    background-color: #78DEC7;
+}
+
+.contact-header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-header .container .p-header{
+    padding-top: 10px;
+}
+
+.contact-header .container .social-header-box{
+    box-sizing: border-box;
+}
+
+.contact-header .container .social-header-box a{
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-header .container .social-header-box i{
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+nav .container .collapse{
+    margin-left: 23%;
+}
+
+nav .container ul li{
+    font-size: 18px;
+    margin-right: 20px;
+    width: 115px;
+    text-align: center;
+}
+
+section.first-section{
+    margin-top: 6rem;
+}
+
+.first-section .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-section .container .left .left-content{
+    padding: 5rem;
+}
+
+.first-section .container .left .left-content h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.first-section .container .left .left-content h5{
+    color: #78DEC7;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.first-section .container .left .left-content p{
+    color: #3C415C;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.first-section .container .left .left-content a{
+    text-decoration: none;
+}
+
+.second-section{
+    background-color: #EEEEEE;
+    margin-top: 80px;
+}
+
+.second-section .container{
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.second-section .container h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.second-section .container .card-B{
+    display: flex;
+    margin-top: 50px;
+}
+
+.second-section .container .card-B .card{
+    margin: 0 1rem;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+.second-section .container .card-B .card:hover{
+    background-color: #222831;
+}
+
+.second-section .container .card-B .card:hover h5{
+    color: #78DEC7;
+}
+
+.second-section .container .card-B .card:hover p{
+    color: #fff;
+}
+
+.second-section .container .card-B .card h5{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.second-section .container .card-B .card p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.third-section .container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.third-section .container .card-MB{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    margin-top: 70px;
+}
+
+footer{
+    background-color: #78DEC7;
+    margin-top: 120px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    border-bottom: 0;
+    font-weight: 600;
+}

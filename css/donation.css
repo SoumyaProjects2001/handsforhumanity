@@ -1,0 +1,85 @@
+section.About-first-section{
+    position: relative;
+}
+
+section.About-first-section .About-img-header img{
+    width: 100%;
+}
+
+section.About-first-section .About-div-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(120, 222, 199, 0.7);
+    height: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.About-first-section .About-div-header h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+section.D1 .container{
+    text-align: center;
+    padding-top: 120px;
+}
+
+section.D1 .container h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+section.D1 .container p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+section.D2 .container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+section.D2 .container h1{
+    margin-bottom: 60px;
+}
+
+section.D2 .container table{
+    width: 60%;
+}
+
+section.D2 .container table tr td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+section.D2 .container table tr td:hover{
+    background-color: tomato;
+}
+
+section.D2 .container tr{
+    height: 50px;
+}
+
+section.D2 .container .D2-epay{
+    margin-top: 40px;
+}
+
+section.D2 .container .D2-epay a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+section.D2 .container .D2-epay a:hover{
+    color: #78DEC7;
+}
+
+section.D2 .container .D2-epay a i{
+    font-size: 35px;
+}

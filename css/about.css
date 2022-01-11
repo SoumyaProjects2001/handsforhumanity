@@ -1,0 +1,92 @@
+section.About-first-section{
+    position: relative;
+}
+
+section.About-first-section .About-img-header img{
+    width: 100%;
+}
+
+section.About-first-section .About-div-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(120, 222, 199, 0.7);
+    height: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.About-first-section .About-div-header h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+section.About-second-section .container{
+    text-align: center;
+    margin-top: 80px;
+}
+
+section.About-second-section .container h1{
+    font-size: 45px;
+}
+
+section.About-second-section .container .About-quote{
+    display: flex;
+    margin-top: 50px;
+}
+
+section.About-second-section .container .About-quote p{
+    width: 700px;
+    font-size: 18px;
+}
+
+section.About-second-section .container .About-quote .About-quote-under{
+    margin-left: 50px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 30px;
+    box-shadow: -1px 2px 20px 0px;
+}
+
+section.About-second-section .container .Our-Mission{
+    margin-top: 160px;
+}
+
+section.About-second-section .container .Our-Mission hr{
+    color: tomato;
+    height: 2px;
+}
+
+section.About-second-section .container .Our-Mission .Our-Mission-under{
+    display: flex;
+    margin-top: 100px;
+}
+
+section.About-second-section .container .Our-Mission .Our-Mission-under .left{
+    flex: 1;
+}
+
+section.About-second-section .container .Our-Mission .Our-Mission-under .left img{
+    height: 400px;
+    margin-top: 80px;
+}
+
+section.About-second-section .container .Our-Mission .Our-Mission-under .right{
+    width: 500px;
+    flex: 1;
+    padding-top: 80px;
+}
+
+section.About-second-section .container .Our-Mission .Our-Mission-under .right h1{
+    margin-bottom: 40px;
+}
+
+section.About-second-section .container .Our-Mission .Our-Mission-under .right p{
+    font-size: 18px;
+    line-height: 1.6;
+}

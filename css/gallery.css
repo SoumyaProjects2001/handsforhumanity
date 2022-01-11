@@ -1,0 +1,31 @@
+section.About-first-section{
+    position: relative;
+}
+
+section.About-first-section .About-img-header img{
+    width: 100%;
+}
+
+section.About-first-section .About-div-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(120, 222, 199, 0.7);
+    height: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.About-first-section .About-div-header h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+section.gallery-photo .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-top: 100px;
+}

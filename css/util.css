@@ -1,0 +1,10 @@
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttn{
+    width: 60px;
+    border: 2px solid transparent;
+}
